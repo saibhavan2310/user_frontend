@@ -1,12 +1,16 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterModule } from '@angular/router';
+import { HomeComponent } from './home/home.component';
+import { RegisterUserComponent } from './register-user/register-user.component';
+import { GetAllUsersComponent } from './get-all-users/get-all-users.component';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
+  standalone: true,
+  imports: [RouterModule, HomeComponent, RegisterUserComponent, GetAllUsersComponent],
 })
 export class AppComponent {
-  title = 'user-management-frontend';
+  title = 'User Management System';
 }
