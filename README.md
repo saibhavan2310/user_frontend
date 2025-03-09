@@ -25,5 +25,16 @@ For a complete list of available schematics (such as `components`, `directives`,
 ```bash
 ng generate --help
 ```
+## Frontend Demo Screenshots
+
+### Homepage
+![Homepage](Frontend_Images/Homepage.png)
+
+### Register Page
+![Register Page](Frontend_Images/Registerpage.png)
+
+### Get All Users Page
+![Get All Users](Frontend_Images/Getallusers.png)
+
 
 
